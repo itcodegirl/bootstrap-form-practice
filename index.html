@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<head>
+  <link href="style.css" rel="stylesheet" type="text/css" media="all" />
+  <title>Bootstrap Design Practice</title>
+  <meta charset="UTF-8" />
+  <!-- CSS style link for code-->
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Bootstrap style link for code-->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"
+  />
+  <!-- Bootstrap Footer Links-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css"
+  />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+  <!-- Beginning of the HEADER -->
+  <header>
+    <div class="section_1">
+      <div class="responsive-container-block big-container">
+        <img class="landing-img" src="images/computer-1.jpg" />
+        <div class="responsive-container-block container">
+          <div class="content-text">
+            <p class="text-blk section-headtext">
+              CTRL Yourself
+            </p>
+            <p class="text-blk section-headtext">
+              ALT Your Thinking
+            </p>
+            <p class="text-blk section-headtext">
+              DEL Negativity
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- END of the HEADER-->
+
+  <!-- Beginning of the MAIN Navbar container-->
+  <div class="container-navbar">
+    <!-- Bootstrap Navbar Code Start-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="images/logo-2.png" alt="" width="125" height="75" />
+        </a>
+      </div>
+    </nav>
+    <!-- Bootstrap Navbar Code End-->
+  </div>
+  <!-- End of the MAIN Navbar container-->
+
+  <!-- Bootstrap HTML FORM practice START-->
+  <div class="container-col">
+    <h1>Bootstrap HTML Form Practice</h1>
+    <h2>Example:</h2>
+    <img src="images/form-1.jpg" width="350" height="150" />
+    <br />
+    <br />
+
+    <form>
+      Text
+      <input type="text" />
+    </form>
+    <br />
+    <h2>Example:</h2>
+    <img src="images/form-2.jpg" width="350" height="120" />
+    <br />
+    <br />
+    <form>
+      Email
+      <input type="email" />
+    </form>
+    <br />
+    <h2>Example:</h2>
+    <img src="images/form-3.jpg" width="350" height="130" />
+    <br />
+    <br />
+    <form>
+      Number
+      <input type="number" />
+    </form>
+    <br />
+    <h2>Example:</h2>
+    <img src="images/form-4.jpg" width="350" height="130" />
+    <br />
+    <br />
+    <form>
+      Date
+      <input type="date" />
+    </form>
+    <br />
+    <h2>Example:</h2>
+    <img src="images/form-5.jpg" width="350" height="150" />
+    <br />
+    <br />
+    <form>
+      Date/time/local
+      <input type="datetime-local" />
+    </form>
+
+    <br />
+    <h2>Example:</h2>
+    <img src="images/form-6.jpg" width="350" height="150" />
+    <br />
+    <br />
+    <form>
+      File
+      <input type="file" />
+    </form>
+    <br />
+    <h2>Example:</h2>
+    <img src="images/form-7.jpg" width="350" height="170" />
+    <br />
+    <br />
+    <form>
+      Password
+      <input type="password" />
+      <input type="submit" />
+    </form>
+
+    <br />
+  </div>
+  <!-- Bootstrap HTML Form END-->
+
+  <!-- Bootstrap Text Attributes BEGIN-->
+  <div class="container-text">
+    <h1>Bootstrap Text Attributes</h1>
+    <br />
+
+    <h2>Example:</h2>
+
+    <h3>
+      The placeholder attribute specifies a short hint that describes the
+      expected value of an input field (e.g. a sample value or a short
+      description of the expected format).
+    </h3>
+    <img src="images/text-1.jpg" width="400" height="200" />
+
+    <br />
+    <br />
+    <form>
+      First Name
+      <input type="text" placeholder="Enter first name here" />
+    </form>
+    <form>
+      Last Name
+      <input type="text" placeholder="Enter last name here" />
+    </form>
+    <br />
+
+    <h2>Example:</h2>
+    <h3>
+      The autofocus attribute is a boolean attribute. When present, it specifies
+      that the element should automatically get focus when the page loads.
+    </h3>
+    <img src="images/text-2.jpg" width="400" height="200" />
+    <br />
+    <br />
+    <form>
+      First Name
+      <input type="text" placeholder="Enter first name here" autofocus="on" />
+    </form>
+    <form>
+      Last Name
+      <input type="text" placeholder="Enter last name here" autofocus="on" />
+    </form>
+    <br />
+
+    <h2>Example:</h2>
+    <h3>
+      Autocomplete allows the browser to predict the value. When a user starts
+      to type in a field, the browser should display options to fill in the
+      field, based on earlier typed values. Tip: It is possible to have
+      autocomplete "on" for the form, and "off" for specific input fields, or
+      vice versa.
+    </h3>
+    <img src="images/text-3.jpg" width="400" height="200" />
+
+    <br />
+    <br />
+    <form>
+      Search
+      <input type="text" id="search" placeholder="Search" autocomplete="on" />
+    </form>
+    <br />
+    <h2>Example:</h2>
+    <img src="images/text-4.jpg" width="400" height="200" />
+    <br />
+    <br />
+    <form>
+      Email
+      <input type="text" placeholder="Enter your email here" />
+      <input type="submit" />
+    </form>
+    <br />
+    <h2>Example:</h2>
+    <img src="images/text-4.jpg" width="400" height="200" />
+    <br />
+    <br />
+    <form>
+      Email
+      <input type="text" placeholder="Enter your email here" />
+      <input type="submit" />
+    </form>
+    <br />
+    <h2>Example:</h2>
+    <img src="images/text-5.jpg" width="400" height="200" />
+    <br />
+    <br />
+    <form>
+      <input type="text" placeholder="Enter your email here" />
+      <input type="Submit" value="Sign Up" />
+    </form>
+    <br />
+    <h2>Example:</h2>
+    <img src="images/text-6.jpg" width="400" height="200" />
+    <br />
+    <br />
+    <form>
+      <label for="email">
+        Enter your email
+      </label>
+      <input type="text" name="email" />
+    </form>
+
+    <h2>Example:</h2>
+    <img src="images/text-7.jpg" width="375" height="350" />
+    <br />
+    <br />
+
+    <style>
+      .label-block {
+        display: block;
+      }
+    </style>
+    <form>
+      <label class="label-block" for="email">
+        Enter your email
+      </label>
+      <input type="text" id="email" />
+
+      <label class="label-block" for="password">
+        Enter your password
+      </label>
+      <input type="password" id="password" />
+
+      <input type="submit" label="Sign up" />
+    </form>
+  </div>
+
+  <!-- Bootstrap Text Attributes END-->
+  <!-- Bootstrap Form Design Example START-->
+
+  <div class="container-design">
+    <div class="row-2">
+      <div class="col-6">
+        <h1>Bootstrap Form Design</h1>
+        <br />
+        <h2>Example:</h2>
+        <br />
+        <img src="images/text-7.jpg" width="400" height="425" />
+      </div>
+    </div>
+  </div>
+  <!-- Bootstrap Form Design Example END-->
+  <!-- Beginning of Bootstrap Form Design Div-->
+  <div class="container-form-design">
+    <div class="row-2">
+      <div class="col-6">
+        <br />
+
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">
+              Email address
+            </label>
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+            />
+            <div id="emailHelp" class="form-text">
+              We'll never share your email with anyone else.
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label"
+              >Password</label
+            >
+            <input
+              type="password"
+              class="form-control"
+              id="exampleInputPassword1"
+            />
+          </div>
+          <div class="mb-3 form-check">
+            <input
+              type="checkbox"
+              class="form-check-input"
+              id="exampleCheck1"
+            />
+            <label class="form-check-label" for="exampleCheck1"
+              >Check me out</label
+            >
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!--Bootstrap simple login START -->
+
+  <div class="container-simple-login">
+    <div class="row-1">
+      <div class="col-8">
+          <br />
+          <h2>Example:</h2>
+          <br />
+          <img src="images/form-8.jpg" width="400" height="200" />
+      </br>
+    </br>
+        <form>
+          <input type="text" placeholder="Enter your username"/>
+          <input type="password" placeholder="Enter your password"/>
+          <input type="submit"value="Login" />
+        </form>
+      </br>
+      </div>
+    </div>
+  </div>
+
+<!-- Bootstrap Form Fancy 1 START-->
+
+<div class="container-fancy-form-1">
+</br>
+</br>
+  <div class="row-1">
+    <div class="col-6">
+      <form>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label"
+            >Email address</label
+          >
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+          />
+          <div id="emailHelp" class="form-text">
+            We'll never share your email with anyone else.
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label"
+            >Password</label
+          >
+          <input
+            type="password"
+            class="form-control"
+            id="exampleInputPassword1"
+          />
+        </div>
+        <div class="mb-3 form-check">
+          <input
+            type="checkbox"
+            class="form-check-input"
+            id="exampleCheck1"
+          />
+          <label class="form-check-label" for="exampleCheck1"
+            >Check me out</label
+          >
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </div>
+</br>
+</div>
+<!-- Bootstrap Form Fancy 1 END-->
+<!-- Bootstrap Form Fancy 2 START-->
+
+  <div class="container-fancy-form-2">
+  </br>
+  </br>
+    <div class="row-1">
+      <div class="col-6">
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label"
+              >Email address</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+            />
+            <div id="emailHelp" class="form-text">
+              We'll never share your email with anyone else.
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label"
+              >Password</label
+            >
+            <input
+              type="password"
+              class="form-control"
+              id="exampleInputPassword1"
+            />
+          </div>
+          <div class="mb-3 form-check">
+            <input
+              type="checkbox"
+              class="form-check-input"
+              id="exampleCheck1"
+            />
+            <label class="form-check-label" for="exampleCheck1"
+              >Check me out</label
+            >
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+  </br>
+  </div>
+  <!-- Bootstrap Form Fancy 2 END-->
+
+<!-- Bootstrap Form Fancy END-->
+  <!-- <div> -->
+  <!-- <br />
+    <br />
+    <form>
+      <input type="range" name="" id="" />
+    </form>
+  </div> -->
+  <!-- END of Design Div-->
+
+  <!-- Bootstrap Footer Code START-->
+
+  <div class="footer-clean">
+    <footer>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-sm-4 col-md-3 item">
+            <h3>Services</h3>
+            <ul>
+              <li><a href="#">Web design</a></li>
+              <li><a href="#">Development</a></li>
+              <li><a href="#">Hosting</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-4 col-md-3 item">
+            <h3>About</h3>
+            <ul>
+              <li><a href="#">Company</a></li>
+              <li><a href="#">Team</a></li>
+              <li><a href="#">Legacy</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-4 col-md-3 item">
+            <h3>Careers</h3>
+            <ul>
+              <li><a href="#">Job openings</a></li>
+              <li><a href="#">Employee success</a></li>
+              <li><a href="#">Benefits</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 item social">
+            <a href="#"><i class="icon ion-social-facebook"></i></a
+            ><a href="#"><i class="icon ion-social-twitter"></i></a
+            ><a href="#"><i class="icon ion-social-snapchat"></i></a
+            ><a href="#"><i class="icon ion-social-instagram"></i></a>
+            <p class="copyright">Jenna Zawaski © 2023</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Bootstrap Footer Code END-->
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+</body>
